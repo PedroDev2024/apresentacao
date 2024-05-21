@@ -5,9 +5,6 @@ e essa paleta de cores:
 #BDE3F2
 #70B77E
 
-O Conteudo do site é esse, organizeo de forma simples e utilize a tag style no css para dar um tom profissional.
-O site servira para apresentar ao gerente operacional do shopping:
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
