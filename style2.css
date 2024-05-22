@@ -1,7 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     color: #162840;
-    background-color: #BDE3F2;
+    background-color: #cdeaf5;
     margin: 0;
     padding: 0;
 }
@@ -31,7 +31,7 @@ header {
 }
 
 .menu-navegacao {
-    background-color: #049DD9; /* Cor de fundo do menu */
+    background-color: #049dd9d7; /* Cor de fundo do menu */
     padding: 10px; /* Espaçamento interno do menu */
     text-align: center;
     font-size: 1.8em;
