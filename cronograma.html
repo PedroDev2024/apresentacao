@@ -5,13 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style2.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #cdeaf5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007BFF;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .project-name {
+            font-weight: bold;
+            color: #007BFF;
+        }
+
+        .due-date {
+            color: #FF0000;
+        }
+
+        .status {
+            font-weight: bold;
+        }
+
+        .status-complete {
+            color: green;
+        }
+
+        .status-pending {
+            color: orange;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Inova Juntos</h1>
+        <h1 style="color: white;">Inova Juntos</h1>
     </header>
     <nav class="menu-navegacao">
         <ul>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="cenario.html">Cenário Atual</a></li>
             <li><a href="objetivos.html">Objetivos do Programa</a></li>
             <li><a href="funcionamento.html">Funcionamento do Programa</a></li>
@@ -21,5 +85,64 @@
             <li><a href="conclusão.html">Conclusão</a></li>
         </ul>
     </nav>
+
+    <div class="container">
+        <h1>Cronograma de Entrega de Projetos</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Projeto</th>
+                    <th>Data de Início</th>
+                    <th>Data de Entrega</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="project-name">Aprovação</td>
+                    <td>23/05/2024</td>
+                    <td class="due-date">24/05/2024</td>
+                    <td class="status status-complete">Completo</td>
+                </tr>
+                <tr>
+                    <td class="project-name">Planejamento</td>
+                    <td>27/05/2024</td>
+                    <td class="due-date">31/06/2024</td>
+                    <td class="status status-pending">Pendente</td>
+                </tr>
+                <tr>
+                    <td class="project-name">Comunicação e lançamento</td>
+                    <td>03/06/2024</td>
+                    <td class="due-date">01/07/2024</td>
+                    <td class="status status-pending">Pendente</td>
+                </tr>
+                <tr>
+                    <td class="project-name">Submissão e avaliação</td>
+                    <td>01/07/2024</td>
+                    <td class="due-date">12/07/2024</td>
+                    <td class="status status-pending">Pendente</td>
+                </tr>
+                <tr>
+                    <td class="project-name">Implementação</td>
+                    <td>15/07/2024</td>
+                    <td class="due-date">18/10/2024</td>
+                    <td class="status status-pending">Pendente</td>
+                </tr>
+                <tr>
+                    <td class="project-name">Mensuração e Recompensa</td>
+                    <td>21/10/2024</td>
+                    <td class="due-date">01/11/2024</td>
+                    <td class="status status-pending">Pendente</td>
+                </tr>
+                <tr>
+                    <td class="project-name">Feedback e Melhoria Continua</td>
+                    <td>04/11/2024</td>
+                    <td class="due-date">15/11/2024</td>
+                    <td class="status status-pending">Pendente</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer>Este Projeto foi desenvolvido por Pedro Lana, Sandra Regina e Milena Magdaleno.</footer>
 </body>
 </html>
