@@ -95,5 +95,6 @@ footer {
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    position: bottom ;
+    position: fixed; /* Fixa o footer na parte inferior da janela do navegador */
+    bottom: 0; /* Posiciona o footer no final da janela do navegador */
 }
