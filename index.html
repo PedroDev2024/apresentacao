@@ -7,6 +7,42 @@
     <link rel="stylesheet" href="style2.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&display=swap');
+        
+        footer > a {
+            text-decoration: none;
+            color: #049DD9;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        main img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        main img:hover {
+            transform: scale(1.05);
+        }
+
+        main h2.crescente {
+            font-size: 2em;
+            color: #333;
+            margin: 20px 0;
+            transition: color 0.3s ease;
+        }
+
+        main h2.crescente:hover {
+            color: #049DD9;
+        }
     </style>
 </head>
 <body>
@@ -16,9 +52,9 @@
     <nav class="menu-navegacao">
         <ul>
             <li><a href="cenario.html">Cenário Atual </a></li>
-            <li><a href="objetivos.html">Objetivos do Programa</a></li>
-            <li><a href="funcionamento.html">Funcionamento do Programa</a></li>
-            <li><a href="etapas.html">Etapas do Projeto</a></li>
+            <li><a href="objetivos.html">Objetivos</a></li>
+            <li><a href="funcionamento.html">Funcionamento</a></li>
+            <li><a href="etapas.html">Etapas</a></li>
             <li><a href="custos.html">Custos</a></li>
             <li><a href="cronograma.html">Cronograma</a></li>
             <li><a href="conclusão.html">Conclusão</a></li>
@@ -26,9 +62,17 @@
     </nav>
     
     <main>
+        <section>
+            <img src="imagens/images.jpg" alt="Inovação Coletiva" id="inovacao">
+            <h2 class="crescente">Inovação coletiva = crescimento coletivo.</h2>
+        </section>
+        <section>
+            <img src="imagens/crescimento coletivo.jpg" alt="Crescimento Coletivo" id="crescimento">
+        </section>
+    </main>
 
-        <img src="imagens/images.jpg" alt="Inovação Coletiva" id="inovacao">
-        <h2 class="crescente">Inovação coletiva = crescimento coletivo.</h2>
-        <img src="imagens/crescimento coletivo.jpg" alt="Crescimento Coletivo" id="crescimento">
-
-        <footer>Este Projeto foi desenvolvido por Pedro Lana, Sandra Regina e Milena Magdaleno.</footer>
+    <footer>
+        Este Projeto foi desenvolvido por <a href="https://www.linkedin.com/in/pedro-lana-918294166/" target="_blank">Pedro Lana</a>, <a href="https://www.facebook.com/profile.php?id=100003709935422" target="_blank">Sandra Regina</a> e <a href="https://www.linkedin.com/in/milena-magdaleno-a127941b3/" target="_blank">Milena Magdaleno</a>.
+    </footer>
+</body>
+</html>

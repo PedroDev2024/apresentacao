@@ -3,19 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inova Juntos</title>
     <link rel="stylesheet" href="style2.css">
     <style>
-        h2 {
-            font-size: 2em; /* Reduz o tamanho da fonte do título */
-            text-align: center; /* Centraliza o título */
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&display=swap');
+        
+        footer > a {
+            text-decoration: none;
+            color: #049DD9;
         }
-        p {
-            font-size: 1em; /* Reduz o tamanho da fonte do parágrafo */
-            text-align: justify; /* Alinha o texto justificado */
-            margin: 0 auto; /* Centraliza o parágrafo */
-            max-width: 80%; /* Define a largura máxima para evitar que o texto fique muito largo */
-            padding: 0 20px; /* Adiciona um espaçamento interno para melhorar a legibilidade */
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        main img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        main img:hover {
+            transform: scale(1.05);
+        }
+
+        main h2.crescente {
+            font-size: 2em;
+            color: #333;
+            margin: 20px 0;
+            transition: color 0.3s ease;
+        }
+
+        main h2.crescente:hover {
+            color: #049DD9;
         }
     </style>
 </head>
@@ -25,27 +51,28 @@
     </header>
     <nav class="menu-navegacao">
         <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="cenario.html">Cenário Atual</a></li>
-            <li><a href="objetivos.html">Objetivos do Programa</a></li>
-            <li><a href="funcionamento.html">Funcionamento do Programa</a></li>
-            <li><a href="etapas.html">Etapas do Projeto</a></li>
+            <li><a href="cenario.html">Cenário Atual </a></li>
+            <li><a href="objetivos.html">Objetivos</a></li>
+            <li><a href="funcionamento.html">Funcionamento</a></li>
+            <li><a href="etapas.html">Etapas</a></li>
             <li><a href="custos.html">Custos</a></li>
             <li><a href="cronograma.html">Cronograma</a></li>
             <li><a href="conclusão.html">Conclusão</a></li>
         </ul>
     </nav>
+    
+    <main>
+        <section>
+            <img src="imagens/images.jpg" alt="Inovação Coletiva" id="inovacao">
+            <h2 class="crescente">Inovação coletiva = crescimento coletivo.</h2>
+        </section>
+        <section>
+            <img src="imagens/crescimento coletivo.jpg" alt="Crescimento Coletivo" id="crescimento">
+        </section>
+    </main>
 
-    <section class="secao1">
-        <h2>Cenário Atual</h2>
-        <p>No ambiente atual da empresa, as ideias de inovação e melhoria vêm da gerência e supervisão, e são executadas pelos colaboradores. Para o colaborador apresentar uma ideia de inovação ou um projeto, ele não consegue entregar algo estruturado ou algo que possa ser analisado por completo. <strong>Mas e se pudéssemos ter acesso às ideias, já com um modelo de implementação definido, no momento que são apresentadas?</strong> O programa "Inova Juntos" traz esse novo cenário para todos os empreendimentos do Grupo Mendes, incentivando os funcionários a entregarem ideias completas, um projeto estruturado, que tem origem das suas próprias vivências e aptidões, podendo ser analisadas e ajustadas conforme necessário pela gerência ou supervisão.</p>
-    </section>
-
-    <section class="secao2">
-        <h2>Problemas Identificados</h2>
-        <p>A falta de um sistema mais estruturado não aproveita totalmente o potencial dos colaboradores, limitando o impacto que uma ideia implementada pode ter na confiança e no rendimento dos funcionários.</p>
-    </section>
-    <footer>Este Projeto foi desenvolvido por Pedro Lana, Sandra Regina e Milena Magdaleno.</footer>
+    <footer>
+        Este Projeto foi desenvolvido por <a href="https://www.linkedin.com/in/pedro-lana-918294166/" target="_blank">Pedro Lana</a>, <a href="https://www.facebook.com/profile.php?id=100003709935422" target="_blank">Sandra Regina</a> e <a href="https://www.linkedin.com/in/milena-magdaleno-a127941b3/" target="_blank">Milena Magdaleno</a>.
+    </footer>
 </body>
 </html>
-
