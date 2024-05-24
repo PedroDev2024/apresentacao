@@ -6,42 +6,31 @@
     <title>Inova Juntos</title>
     <link rel="stylesheet" href="style2.css">
     <style>
-        
-        footer > a {
-            text-decoration: none;
-            color: #049DD9;
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
         }
-
-        main {
-            padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
+        h2 {
+            font-size: 2.5em;
             text-align: center;
         }
-
-        main img {
-            max-width: 100%;
-            height: auto;
-            margin: 20px 0;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
+        p {
+            text-align: center;
+            margin-left: 20px; /* Reduz a margem esquerda para telas pequenas */
+            margin-right: 20px; /* Reduz a margem direita para telas pequenas */
+            font-size: 1.2em; /* Reduz o tamanho da fonte para telas pequenas */
+            padding-bottom: 50px;
+        }
+        .content {
+            flex: 1;
         }
 
-        main img:hover {
-            transform: scale(1.05);
-        }
-
-        main h2.crescente {
-            font-size: 2em;
-            color: #333;
-            margin: 20px 0;
-            transition: color 0.3s ease;
-        }
-
-        main h2.crescente:hover {
-            color: #049DD9;
-        }
+        footer > a{
+        text-decoration: none;
+        color: #049DD9;
+    }
     </style>
 </head>
 <body>
@@ -51,7 +40,7 @@
     <nav class="menu-navegacao">
         <ul>
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="cenario.html">Cenário Atual </a></li>
+            <li><a href="cenario.html">Cenário Atual</a></li>
             <li><a href="objetivos.html">Objetivos</a></li>
             <li><a href="funcionamento.html">Funcionamento</a></li>
             <li><a href="inovajuntos.html">Ferramenta Inova Juntos</a></li>
@@ -59,21 +48,19 @@
             <li><a href="custos.html">Custos</a></li>
             <li><a href="cronograma.html">Cronograma</a></li>
             <li><a href="conclusão.html">Conclusão</a></li>
+            
         </ul>
     </nav>
     
-    <main>
-        <section>
-            <img src="imagens/qrcode.png" alt="Inovação Coletiva" id="inovacao">
-            <h2 class="crescente">Inovação coletiva = crescimento coletivo.</h2>
-        </section>
-        <section>
-            <img src="imagens/crescimento coletivo.jpg" alt="Crescimento Coletivo" id="crescimento">
-        </section>
-    </main>
-
-    <footer>
-        Este Projeto foi desenvolvido por <a href="https://www.linkedin.com/in/pedro-lana-918294166/" target="_blank">Pedro Lana</a>, <a href="https://www.facebook.com/profile.php?id=100003709935422" target="_blank">Sandra Regina</a> e <a href="https://www.linkedin.com/in/milena-magdaleno-a127941b3/" target="_blank">Milena Magdaleno</a>.
-    </footer>
+    <div class="content">
+        <h2>Conclusão</h2>
+        <p>
+            O melhor exemplo que podemos fornecer dos possíveis resultados é este:<br>
+           
+            Este projeto está sendo desenvolvido por profissionais da área de manutenção, operações do shopping e operações da empresa de energia , seguindo as aptidões de cada um, exatamente como as ideias do programa "Inova Juntos" devem ser: <strong>originais</strong>.<br>
+            Este programa visa apoiar e aproveitar os programas e valores já adotados pela empresa como: a eficiência operacional , o LABIM, entre outros.<br>
+        </p>
+    </div>
+    <footer>Este Projeto foi desenvolvido por <a href="https://www.linkedin.com/in/pedro-lana-918294166/" target="_blank">Pedro Lana</a>, <a href="https://www.facebook.com/profile.php?id=100003709935422" target="_blank">Sandra Regina</a> e <a href="https://www.linkedin.com/in/milena-magdaleno-a127941b3/" target="_blank">Milena Magdaleno</a>.</footer>
 </body>
 </html>
